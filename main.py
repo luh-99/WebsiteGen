@@ -98,7 +98,7 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
 
 async def main():
-    application = ApplicationBuilder().token("7840454690:AAGqIBOap2BvHOmh9kvxHXhXDH5CpeJJx_8").build()
+    application = ApplicationBuilder().token("Your Telegram Token Here").build()
 
     application.add_handler(CommandHandler("start", start))  # Added start handler
     application.add_handler(CommandHandler("gen", gen))
