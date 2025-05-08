@@ -98,7 +98,8 @@ async def button(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     )
 
 async def main():
-    application = ApplicationBuilder().token("TOKEN_ID").build()
+    application = ApplicationBuilder().token("7467798825:AAFf4L4WFZby8P_Rz5Fj9HxJtSb5gsfluxE
+").build()
 
     application.add_handler(CommandHandler("start", start))  # Added start handler
     application.add_handler(CommandHandler("gen", gen))
